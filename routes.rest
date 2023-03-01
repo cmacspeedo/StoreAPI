@@ -1,0 +1,13 @@
+// routes
+
+// 'URL'
+@host = http://localhost:3000/api/v1
+
+
+// Localhost method requests
+###
+GET {{host}}/products/static HTTP/1.1
+###
+GET {{host}}/products HTTP/1.1
+
+
